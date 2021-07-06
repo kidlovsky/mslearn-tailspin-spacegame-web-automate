@@ -255,6 +255,7 @@ stages:
                   Variables = $vars}
                 Update-VSTeamVariableGroup @methodParameters
 
+                
 - stage: 'Dev'
   displayName: 'Deploy to the dev environment'
   dependsOn:
